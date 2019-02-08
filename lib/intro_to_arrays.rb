@@ -6,7 +6,7 @@ def array_with_two_elements
   my_array = [" "," "]
 end
 
-def first_element
+def first_element(arr)
 
 end
 
@@ -14,12 +14,12 @@ def third_element
 
 end
 
-def last_element
-
+def last_element(arr)
+  arr1 = [arr.length-1]
 end
 
 def first_element_with_array_methods
-
+arr.shift
 end
 
 def last_element_with_array_methods(arr)
