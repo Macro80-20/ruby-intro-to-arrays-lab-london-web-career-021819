@@ -15,10 +15,10 @@ arr[2]
 end
 
 def last_element(arr)
-  arr1 = [arr.length-1]
+   arr[arr.length-1]
 end
 
-def first_element_with_array_methods
+def first_element_with_array_methods(arr)
 arr.shift
 end
 
